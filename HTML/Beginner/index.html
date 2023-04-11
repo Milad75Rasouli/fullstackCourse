@@ -3,33 +3,46 @@
 <head>
     <title>Home</title>
     <style>
-        p{
-            color:aqua;
+        nav{
+            background-color: #c1df1f;
+            
         }
-        // selector{
-            // property: vlaue;
-        //}
+        nav a{
+            font-size: 21px;
+            color: #070707;
+            font-family: cursive;
+            line-height: 50px;
+            text-decoration-line: none;
+            //text-decoration-style: dotted;
+            //text-decoration-color: red;
+            //text-decoration: ; // none  inherit overline red 
+            //font-weight: bold;
+        }
+        nav a:hover{
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+        }
     </style>
 </head>
 <body>
 
     <!--Scalable Vector Graphics (SVG) -->
     <img src="images/brand-logo.svg" alt="my shop logo" width="100px" height="50px"/>
-    <embed src="images/brand-logo.svg" alt="my shop logo" width="100px" height="50px"/>
     <!-- copy and paste the svg file here.-->
     <!--
+        <embed src="images/brand-logo.svg" alt="my shop logo" width="100px" height="50px"/>
         <iframe src="images/brand-logo.svg" width="100px" height="50px"/>
         <object data="images/brand-logo.svg" width="100px" height="50px"/> 
         <div style="background:url(images/brand-logo.svg)">...</div>
     -->
     <!--navigation list -->
-    <ul>
-        <li><a href="#"><strong>Home</strong></a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="profile.html">Profile</a></li> <!-- open in new tab-->
-        <li><a href="singup.html">Singup</a></li>
-    </ul>
+    <nav>
+        <a href="#"><strong>Home</strong></a>
+        <a href="shop.html">Shop</a>
+        <a href="contact.html">Contact</a>
+        <a href="profile.html">Profile</a>
+        <a href="singup.html">Singup</a>
+    </nav>
 
     <p>this is text 1</p>
     <br/> <!-- it adds a while-space-->
