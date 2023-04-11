@@ -4,7 +4,7 @@ nav{
     background-color: #c1df1f;
     
 }
-nav a{
+.class_nav{
     font-size: 21px;
     color: #070707;
     font-family: cursive;
@@ -15,7 +15,10 @@ nav a{
     //text-decoration: ; // none  inherit overline red 
     //font-weight: bold;
 }
-nav a:hover{
+.class_nav a:hover{
     text-decoration-line: underline;
     text-decoration-style: wavy;
+}
+#singup_button{
+    background-color:chocolate;
 }
