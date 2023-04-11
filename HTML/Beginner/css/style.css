@@ -1,0 +1,21 @@
+// External css
+
+nav{
+    background-color: #c1df1f;
+    
+}
+nav a{
+    font-size: 21px;
+    color: #070707;
+    font-family: cursive;
+    line-height: 50px;
+    text-decoration-line: none;
+    //text-decoration-style: dotted;
+    //text-decoration-color: red;
+    //text-decoration: ; // none  inherit overline red 
+    //font-weight: bold;
+}
+nav a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
