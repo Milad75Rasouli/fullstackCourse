@@ -1,5 +1,8 @@
-// External css
+/* External css*/
 
+body{
+    font-family: sans-serif;
+}
 nav{
     background-color: #c1df1f;
     
@@ -7,13 +10,13 @@ nav{
 .class_nav{
     font-size: 21px;
     color: #070707;
-    font-family: cursive;
+    /*font-family: cursive;*/
     line-height: 50px;
     text-decoration-line: none;
-    //text-decoration-style: dotted;
-    //text-decoration-color: red;
-    //text-decoration: ; // none  inherit overline red 
-    //font-weight: bold;
+    /*text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-decoration: ; // none  inherit overline red 
+    font-weight: bold;*/
 }
 .class_nav a:hover{
     text-decoration-line: underline;
@@ -21,4 +24,24 @@ nav{
 }
 #singup_button{
     background-color:chocolate;
+}
+.product_img{
+    /*    border: 10px dashed red;*/
+    /*border-style: groove;
+    border-width: ridge;
+    border-color: red;*/
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 50%;
+/*none    |
+hidden  |
+dotted  |
+dashed  |
+solid   |
+double  |
+groove  |
+ridge   |
+inset   |
+outset */
 }
